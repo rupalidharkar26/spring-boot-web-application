@@ -24,16 +24,13 @@
 		<br>
 		<form method="post">
 			<label for="name">Name: </label> <input type="text" name="name">
-			<br> <label for="password">Password: </label> <input type="text"
+			<br> <label for="password">Password: </label> <input type="password"
 				name="password"> <br>
 			<button type="submit">Submit</button>
 		</form>
 
 	</div>
 	
-	<div class="keepInMiddle">
-		<h1>Hello Spring</h1>
-	</div>
-
+	
 </body>
 </html>

@@ -16,7 +16,7 @@
 </head>
 <body>
 	<div class="center-me">
-		<h3>Welcome ${name} !!!</h3>
+		<h3>Welcome ${name} !!! <a href= "/list-todos"> Click here</a> to manage your todos</h3>
 	</div>
 </body>
 </html>
