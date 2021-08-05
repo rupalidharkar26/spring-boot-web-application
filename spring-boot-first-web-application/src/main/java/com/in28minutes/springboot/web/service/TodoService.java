@@ -15,7 +15,7 @@ public class TodoService {
 
   static {
     todos.add(new Todo(1, "Rupali", "learn spring MVC", new Date(), false));
-    todos.add(new Todo(2, "Komal", "learn RPA", new Date(), false));
+    todos.add(new Todo(2, "Rupali", "learn RPA", new Date(), false));
     todos.add(new Todo(3, "Dharkar", "learn Hibernate", new Date(), false));
   }
 

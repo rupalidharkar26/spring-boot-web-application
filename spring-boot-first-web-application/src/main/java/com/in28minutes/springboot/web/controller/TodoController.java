@@ -21,7 +21,7 @@ public class TodoController {
   public String showTodosList(ModelMap model) {
     String name = (String) model.get("name");
 
-    model.put("todos", service.retrieveTodos("Rupali"));
+    model.put("todos", service.retrieveTodos(name));
 
     return "list-todos";
 

@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 public class LoginService {
 
   public boolean validateUser(String userId, String password) {
-    return userId.equalsIgnoreCase("spring") && password.equalsIgnoreCase("123");
+    return userId.equalsIgnoreCase("Rupali") && password.equalsIgnoreCase("123");
   }
 
 }
